@@ -23,8 +23,14 @@
 
 // console.log(getTimeFromMinutes(150));
 
-function digits(n) {
-    return String(n).length;
+// function digits(n) {
+//     return String(n).length;
+//   }
+
+
+  function perimeterSequence(a,n) {
+    return (a * 4) * n;
   }
 
+  console.log(perimeterSequence(1,3));
 
