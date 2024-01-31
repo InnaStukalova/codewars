@@ -32,9 +32,12 @@
 //     return (a * 4) * n;
 //   }
 
-function removeChar(str){
-    return str.slice(1, -1);
-   }
+// function removeChar(str){
+//     return str.slice(1, -1);
+//    }
 
+function noSpace(x){
+    return x.replaceAll(' ', '');
+}
 
 
