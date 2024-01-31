@@ -36,8 +36,13 @@
 //     return str.slice(1, -1);
 //    }
 
-function noSpace(x){
-    return x.replaceAll(' ', '');
-}
+// function noSpace(x){
+//     return x.replaceAll(' ', '');
+// }
+
+
+function solution(str, ending){
+    return str.endsWith(ending);
+  }
 
 
