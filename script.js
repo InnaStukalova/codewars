@@ -10,11 +10,21 @@
 //   return array.map((number) => number * -1);
 // }
 
-function repeatStr (n, s) {
-  return s.repeat(n);
-}
+// function repeatStr (n, s) {
+//   return s.repeat(n);
+// }
 
-console.log(repeatStr(5, 'lol'));
+// console.log(repeatStr(1, 'lol'));
 
+// function getTimeFromMinutes(t) {
+//     return Math.ceil(t / 60);
+// }
+
+
+// console.log(getTimeFromMinutes(150));
+
+function digits(n) {
+    return String(n).length;
+  }
 
 
