@@ -28,9 +28,13 @@
 //   }
 
 
-  function perimeterSequence(a,n) {
-    return (a * 4) * n;
-  }
+//   function perimeterSequence(a,n) {
+//     return (a * 4) * n;
+//   }
 
-  console.log(perimeterSequence(1,3));
+function removeChar(str){
+    return str.slice(1, -1);
+   }
+
+
 
