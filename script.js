@@ -41,8 +41,12 @@
 // }
 
 
-function solution(str, ending){
-    return str.endsWith(ending);
-  }
+// function solution(str, ending){
+//     return str.endsWith(ending);
+//   }
 
+
+function simpleMultiplication(number) {
+    return number % 2 === 0 ? number * 8 : number * 9;
+}
 
