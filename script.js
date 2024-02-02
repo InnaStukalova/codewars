@@ -91,6 +91,14 @@
 // }
 
 
-function typeOfSum(a, b) {
-  return typeof(a + b);
-}
+// function typeOfSum(a, b) {
+//   return typeof(a + b);
+// }
+
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return distanceToPump <= mpg * fuelLeft ? true : false;
+};
+
+
+console.log(zeroFuel(300, 50, 1));
