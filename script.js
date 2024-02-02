@@ -86,9 +86,11 @@
 // }
 // }
 
-console.log(rentalCarCost(3));
+// function rentalCarCost(d) {
+//   return d >= 7 ? d * 40 - 50 : d >= 3 && d < 7 ? d * 40 - 20 : d * 40;
+// }
 
 
-function rentalCarCost(d) {
-  return d >= 7 ? d * 40 - 50 : d >= 3 && d < 7 ? d * 40 - 20 : d * 40;
+function typeOfSum(a, b) {
+  return typeof(a + b);
 }
