@@ -70,10 +70,25 @@
 //       }
 //   }
 
-function updateLight (current) {
-  switch (current) {
-          case 'green' : return 'yellow';
-          case 'yellow' : return 'red';
-          case 'red' : return 'green';
-}
+// function updateLight (current) {
+//   switch (current) {
+//           case 'green' : return 'yellow';
+//           case 'yellow' : return 'red';
+//           case 'red' : return 'green';
+// }
+// }
+
+// function rentalCarCost(d) {
+//     switch (d) {
+//               case d >= 7 : return d * 40 - 50;
+//               case d >= 3 && d < 7 : return d * 40 - 20;
+//               case d < 3 : return d * 40;
+// }
+// }
+
+console.log(rentalCarCost(3));
+
+
+function rentalCarCost(d) {
+  return d >= 7 ? d * 40 - 50 : d >= 3 && d < 7 ? d * 40 - 20 : d * 40;
 }
