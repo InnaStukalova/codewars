@@ -104,6 +104,11 @@
 // console.log(zeroFuel(300, 50, 1));
 
 
-var ArrowFunc = function(arr) {
-  return arr.map(e => String.fromCharCode(e)).join('');
-};
+// var ArrowFunc = function(arr) {
+//   return arr.map(e => String.fromCharCode(e)).join('');
+// };
+
+
+function mergeArrays(arr1, arr2) {
+  return [...new Set([...arr1, ...arr2])].sort((a, b) => a - b); 
+}
