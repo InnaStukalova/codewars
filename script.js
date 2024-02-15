@@ -96,9 +96,14 @@
 // }
 
 
-const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    return distanceToPump <= mpg * fuelLeft ? true : false;
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+//     return distanceToPump <= mpg * fuelLeft ? true : false;
+// };
+
+
+// console.log(zeroFuel(300, 50, 1));
+
+
+var ArrowFunc = function(arr) {
+  return arr.map(e => String.fromCharCode(e)).join('');
 };
-
-
-console.log(zeroFuel(300, 50, 1));
