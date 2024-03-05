@@ -114,14 +114,21 @@
 // }
 
 
-function add(num1, num2) {
-    num1 = num1.toString().split('').reverse();
-    num2 = num2.toString().split('').reverse();
-    let max = Math.max(num1.length, num2.length);
-    let newArr = [];
-    for (let i = max - 1; i >= 0; i--) {
-        newArr.push(Number(num1[i] || 0) + Number((num2[i]) || 0));
-    }
-    let result = newArr.reduce((acc, ell) => acc.toString() + ell.toString());
-    return Number(result);
+// function add(num1, num2) {
+//     num1 = num1.toString().split('').reverse();
+//     num2 = num2.toString().split('').reverse();
+//     let max = Math.max(num1.length, num2.length);
+//     let newArr = [];
+//     for (let i = max - 1; i >= 0; i--) {
+//         newArr.push(Number(num1[i] || 0) + Number((num2[i]) || 0));
+//     }
+//     let result = newArr.reduce((acc, ell) => acc.toString() + ell.toString());
+//     return Number(result);
+// }
+
+
+
+for (let obj of questions) {
+  obj.usersAnswer = null;
 }
+
