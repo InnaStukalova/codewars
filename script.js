@@ -128,7 +128,47 @@
 
 
 
-for (let obj of questions) {
-  obj.usersAnswer = null;
+// for (let obj of questions) {
+//   obj.usersAnswer = null;
+// }
+
+
+function getTimeFromMinutes(hr) {
+
+  let minutes = hr % 60;
+  let hour = Math.floor(hr / 60);
+
+switch (hour) {
+  case 0:
+  case 5:
+  case 6:
+  case 7:
+  case 8:
+  case 9:
+  case 10:
+    console.log(`Это ${hour} часов и ${minutes} минут`);
+    break;
+  
+  case 1:
+    console.log(`Это ${hour} час и ${minutes} минут`);
+    break;
+
+  case 2:
+  case 3:
+  case 4:
+    console.log(`Это ${hour} часа и ${minutes} минут`);
+    break;
+  
+  default:
+    console.log("Ошибка, проверьте данные");
+    break;
 }
+  return hour;
+
+}
+
+getTimeFromMinutes(-1);
+
+
+
 
